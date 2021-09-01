@@ -1,0 +1,47 @@
+
+p, button { 
+    font-family: Roboto;
+}
+.Board {
+    position: relative;
+    background-color: rgb(83, 66, 66);
+    background-image:
+        linear-gradient (black 1px, transparent 1px),
+        linear-gradient(90deg, rgb(12, 9, 9) 1px, transparent 1px);
+}
+.container {
+    margin: 0 auto;
+}
+.main, .container, .status, .main_board {
+    display: flex;
+    justify-content: center;
+}
+
+.Results {
+    margin-left: 20px;
+}
+
+.controls {
+    margin-right: 5px;
+    margin-top: 300px;
+}
+.controls_item {
+    position: relative;
+    margin-right: 0px;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: right;
+}
+.main_board {
+    
+    flex-direction: column;
+}
+
+.button {
+    
+    background-color: white;
+    border-radius: 5px;
+    width: 110px;
+    margin-left: 12px;
+    cursor: pointer;
+}
